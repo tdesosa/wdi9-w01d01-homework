@@ -1,0 +1,151 @@
+Part 1:Set the Scene
+
+1) 
+
+TD-MacAir:homework_part_1 TDeSosa$ mkdir death_star/
+TD-MacAir:death_star TDeSosa$ touch darth_vader.txt princess_leia.txt storm_trooper.txt
+
+
+2)
+
+TD-MacAir:homework_part_1 TDeSosa$ mkdir galaxy_far_far_away/
+TD-MacAir:galaxy_far_far_away TDeSosa$ mkdir tatooine/
+TD-MacAir:tatooine TDeSosa$ touch luke.txt ben_kenobi.txt
+
+
+3)
+
+TD-MacAir:tatooine TDeSosa$ mkdir millenium_falcon
+TD-MacAir:millenium_falcon TDeSosa$ touch han_solo.txt chewbaca.txt
+
+
+
+Part II:mv-rename
+
+4)
+
+TD-MacAir:tatooine TDeSosa$ mv ben_kenobi.txt obi_wan.txt
+
+
+
+Part III: cp-copy
+
+5)
+
+TD-MacAir:death_star TDeSosa$ cp storm_trooper.txt ../tatooine
+
+
+
+Part IV: mv-move
+
+6) 
+
+TD-MacAir:tatooine TDeSosa$ mv luke.txt obi_wan.txt millenium_falcon/
+
+
+7)
+
+TD-MacAir:tatooine TDeSosa$ mv millenium_falcon/ ..
+
+
+8)
+
+TD-MacAir:galaxy_far_far_away TDeSosa$ mv millenium_falcon/ death_star/
+
+
+9)
+
+TD-MacAir:death_star TDeSosa$ mv princess_leia.txt millenium_falcon/
+
+
+
+Part V: rm-remove
+
+10)
+
+TD-MacAir:millenium_falcon TDeSosa$ rm obi_wan.txt
+
+
+
+Part VI: all together
+
+11)
+
+TD-MacAir:galaxy_far_far_away TDeSosa$ mkdir yavin_4/
+
+
+12)
+
+TD-MacAir:death_star TDeSosa$ mv millenium_falcon/ ../yavin_4/
+
+
+13)
+
+TD-MacAir:yavin_4 TDeSosa$ mkdir x_wing/
+
+
+14)
+
+TD-MacAir:millenium_falcon TDeSosa$ mv princess_leia.txt ..
+TD-MacAir:millenium_falcon TDeSosa$ mv luke.txt ../x_wing/
+
+
+15)
+
+TD-MacAir:yavin_4 TDeSosa$ mv millenium_falcon/ x_wing/ ..
+
+
+16)
+
+TD-MacAir:death_star TDeSosa$ mkdir tie_fighter_1/ tie_fighter_2/ tie_fighter_3/
+
+
+17)
+
+TD-MacAir:death_star TDeSosa$ mv darth_vader.txt tie_fighter_1/
+
+
+18)
+
+TD-MacAir:death_star TDeSosa$ cp storm_trooper.txt tie_fighter_2
+TD-MacAir:death_star TDeSosa$ cp storm_trooper.txt tie_fighter_3
+
+
+19)
+
+TD-MacAir:death_star TDeSosa$ mv tie_fighter_1/ tie_fighter_2/ tie_fighter_3/ ..
+
+
+
+Part VII: rm -r
+
+20)
+
+TD-MacAir:galaxy_far_far_away TDeSosa$ rm -r tie_fighter_2/ tie_fighter_3/
+
+
+
+Part VIII:
+
+21)
+
+TD-MacAir:x_wing TDeSosa$ touch the_force.txt
+
+
+22)
+
+TD-MacAir:galaxy_far_far_away TDeSosa$ rm -r death_star/
+
+
+23)
+
+TD-MacAir:galaxy_far_far_away TDeSosa$ mv x_wing/ millenium_falcon/ yavin_4/
+
+
+
+Commit & Push
+
+
+
+
+
